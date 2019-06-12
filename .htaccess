@@ -1,0 +1,18 @@
+AddDefaultCharset utf-8
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .* - [L]
+
+DirectoryIndex index.php
+
+RewriteRule ^([a-zA-Z0-9_-]{3,20})/([^/]+)/([^/]+)?$ index\.php?page=$1&s=$2&o=$3 [L]
+
+RewriteRule ^([a-zA-Z0-9_-]{3,20})/([^/]+)?$ index\.php?page=$1&s=$2 [L]
+
+RewriteRule ^([a-zA-Z0-9_-]{3,20})/?$ index\.php?page=$1 [L]
+
+RewriteRule ^([a-zA-Z0-9_-]{3,20})?$ index\.php?page=$1 [L]
+
+ErrorDocument 404 /404
+

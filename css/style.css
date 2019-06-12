@@ -1,0 +1,160 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	overflow:visible;
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.wrapper
+{
+	width:1000px;
+	margin:0 auto;
+}
+.main_menu
+{
+	margin:0;
+}
+.letters span
+{
+	padding:0 5px;
+	cursor:pointer;
+}
+.shortcut_icons
+{
+	margin:0;
+}
+.container
+{
+	margin:0;
+}
+.left_sidebar
+{
+	width:300px;
+	float:left;
+}
+.right_content
+{
+	width:700px;
+	float:right;
+}
+
+
+
+.main_menu ul 
+{
+	background:#f0f0f0;
+	height:25px;
+	border-bottom:1px solid #a0a0a0;
+}
+.main_menu ul li
+{
+	float:left;
+	margin:0 10px 0 10px;
+	list-style:none;
+	background:#f0f0f0;
+	border:1px solid #f0f0f0;
+	position:relative;
+}
+.main_menu ul li:hover
+{
+	background:#aed7ff;
+	border:1px solid #3399ff;
+}
+.shortcut_icons ul 
+{
+	background:#f0f0f0;
+	height:25px;
+}
+
+.shortcut_icons ul li
+{
+	float:left;
+	margin:0 3px 0 3px;
+	list-style:none;
+	background:#f0f0f0;
+	border:1px solid #f0f0f0;
+}
+.shortcut_icons ul li img
+{
+	margin:0px;
+}
+.shortcut_icons ul li:hover
+{
+	background:#aed7ff;
+	border:1px solid #3399ff;
+}
+.left_sidebar
+{
+	background:#6495ed;
+}
+.widget_title
+{
+	background:#f2f5fd;
+	height:17px;
+	width:250px;
+	border-radius:15px 15px 0 0;
+	padding:10px;
+	color:#215dc6;
+	margin:5px 0 0 15px;
+}
+.parainput
+{
+	width:50px;
+}
+.widget_content
+{
+	background:#F2F5FD;
+	width:250px;
+	padding:10px;
+	margin:5px 0 0 15px;
+	border: 1px solid #a9a9a9;
+}
+.widget_content h3
+{
+	font-weight:normal;
+	color:#0000ff;
+	text-decoration:underline;
+	font-size:12px;
+	line-height:20px;
+	cursor:pointer;
+}
+.widget_content li
+{
+	list-style:none;
+}
+.widget_content img
+{
+	float:left;
+	margin:0 0 0 10px;
+}
+.welcome
+{
+	color:#fff;
+	background:#6495ed;
+	font-size:20px;
+	border:1px solid #000;
+	padding:10px 0 10px 10px;
+	margin:5px 0 5px 5px;
+}
+.logoimage
+{
+	margin:60px 0 0 100px;
+}
+/*.content
+{
+	border:1px solid #696969;
+	padding:10px 0 10px 10px;
+	margin:5px 0 5px 5px;
+	min-height:508px;
+}*/
+.content {
+  border: 1px solid #696969;
+  height: 467px;
+  margin: 5px 0 5px 5px;
+  overflow: auto;
+  padding: 10px 0 10px 10px;
+}
